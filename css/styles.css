@@ -2,10 +2,47 @@ body {
   font-family: "roboto", sans-serif;
 }
 
-.header-link {
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-link {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.nav-contact {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.modal-button {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }

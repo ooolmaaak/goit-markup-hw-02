@@ -14,19 +14,35 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo">WebStudio</a>
-        <ul>
-          <li class="header-link"><a href="">Studio</a></li>
-          <li class="header-link"><a href="">Portfolio</a></li>
-          <li class="header-link"><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo link" href="./index.html"
+          ><span class="logo-web-color">Web</span>Studio</a
+        >
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link link" href="#studio">Studio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="header-contacts">
+          <li>
+            <a class="nav-contact link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="nav-contact link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -34,11 +50,11 @@
       <!--Hero-->
       <section class="hero">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="modal-button" type="button">Order Service</button>
       </section>
 
-      <!--Section-1-->
-      <section class="section-1">
+      <!--STUDIO-->
+      <section class="studio">
         <h2 hidden>Features</h2>
         <!--Прихований заголовок-->
         <ul>
@@ -73,8 +89,8 @@
         </ul>
       </section>
 
-      <!--Section-2-->
-      <section class="section-2">
+      <!--SERVICES-->
+      <section class="services">
         <h2>What are we doing</h2>
         <ul>
           <li>
@@ -103,8 +119,9 @@
           </li>
         </ul>
       </section>
-      <!--Section-3-->
-      <section class="section-3">
+
+      <!--CONTACTS-->
+      <section class="section-3" id="contacts">
         <h2>Our Team</h2>
         <ul>
           <li>
