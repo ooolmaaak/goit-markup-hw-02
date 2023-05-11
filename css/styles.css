@@ -1,3 +1,7 @@
+:root {
+  --title-color: #ffffff;
+}
+
 body {
   font-family: "roboto", sans-serif;
 }
@@ -10,6 +14,19 @@ body {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header {
   background-color: #ffffff;
 }
@@ -17,16 +34,23 @@ body {
   font-family: "roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* HEADER */
 
 .header-logo {
   font-family: "roboto", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -39,21 +63,34 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.nav-contact:hover,
+.nav-contact:focus {
+  color: #404bbf;
+}
+
+/* HERO */
 
 .order-button {
   font-family: "roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #4d5ae5;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
 
 .hero {
@@ -64,17 +101,19 @@ body {
   font-family: "roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
+/* STUDIO */
+
 .title-block {
   font-family: "roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -85,7 +124,7 @@ body {
   font-family: "roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -94,14 +133,18 @@ body {
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
+/* SERVICES */
+
 .services {
   background-color: #ffffff;
 }
+
+/* CONTACTS */
 
 .contacts {
   background-color: #f4f4fd;
@@ -111,6 +154,8 @@ body {
   background-color: #ffffff;
 }
 
+/* FOOTER */
+
 .footer {
   background-color: #2e2f42;
 }
@@ -119,7 +164,7 @@ body {
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
@@ -128,7 +173,7 @@ body {
   font-family: "raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
