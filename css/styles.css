@@ -3,7 +3,9 @@
 }
 
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .link {
@@ -14,7 +16,7 @@ body {
   list-style: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -25,13 +27,13 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .header {
   background-color: #ffffff;
 }
 .nav-link {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -47,19 +49,23 @@ body {
 /* HEADER */
 
 .header-logo {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
 }
 
+.header-logo-text {
+  color: #2e2f42;
+}
+
 .nav-contact {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -73,10 +79,14 @@ body {
   color: #404bbf;
 }
 
+.headerr-address {
+  font-style: normal;
+}
+
 /* HERO */
 
 .order-button {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -98,7 +108,7 @@ body {
 }
 
 .title-main {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -110,7 +120,7 @@ body {
 /* STUDIO */
 
 .title-block {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -121,7 +131,7 @@ body {
 }
 
 .item-subltitle {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -130,7 +140,7 @@ body {
 }
 
 .item-description {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -161,7 +171,7 @@ body {
 }
 
 .footer-description {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -181,14 +191,14 @@ body {
   text-transform: uppercase;
 }
 
-.logo-blue-text {
-  color: #4d5ae5;
+.footer-logo-text {
+  color: #f4f4fd;
 }
 
 /* PORTFOLIO */
 
 .filters-button {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -204,4 +214,14 @@ body {
 .filters-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+
+.portfolio-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
